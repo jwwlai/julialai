@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: Lato, 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: #111;
+}
+
+h3 {
+	padding: 50px;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+#top {
+	background: url('images/mebgbw.jpg') no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
+#main {
+	padding: 0px 10px 220px 10px;
+	color: #3A3A3A;
+	font-size: 30px;
+	background-color: transparent;
+}
+
+.logo {
+	margin-top: 50px;
+	width: 250px;
+	background-color: #111111;
+	color: #fff;
+	border: 1px solid #3A3A3A;
+	text-align: center;
+	display: block;
+	line-height: 2px;
+}
+
+.logo-desc {
+	text-shadow: 0 1px 4px rgba(255,255,255,0.4);
+}
+
+.section-wrapper {
+	background-color: #FAFAFA; /*E9EAE5*/
+	border-top: 0px solid black;
+	padding-bottom: 50px;
+}
+
+section div {
+	-o-transition: color .2s ease-out, background .2s ease-in;
+	-ms-transition: color .2s ease-out, background .2s ease-in;
+	-moz-transition: color .2s ease-out, background .2s ease-in;
+	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	/* ...and now override with proper CSS property */
+	transition: color .2s ease-out, background .2s ease-in;
+}
+
+#work {
+	text-align: left;
+	border-right: 5px solid #FAFAFA;
+	border-bottom: 3px solid #FAFAFA;
+	color: #000;
+	padding: 10px;
+}
+
+#work a {
+	text-decoration: underline;
+}
+
+#work a:hover {
+	text-decoration: none;
+}
+
+#work h3 {
+	text-transform: none;
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+
+#projects div {
+	text-align: center;
+	background-color: #E9EAE5; /* 3A3A3A */
+	border-right: 5px solid #FAFAFA;
+	border-bottom: 3px solid #FAFAFA;
+	color: #000;
+}
+
+#projects div:hover {
+	background-color: #3A3A3A;
+	color: #fafafa;
+}
+
+#projects ul li {
+	list-style: none;
+	background-color: #111;
+}
+
+#social div {
+	background-color: #E9EAE5; /* 3A3A3A */
+	text-align: center;
+	border-right: 5px solid #FAFAFA;
+	border-bottom: 3px solid #FAFAFA;
+	color: #000;
+}
+
+#social h3 {
+	padding: 10px;
+}
+#social div:hover {
+	background-color: #1F5586;
+	color: #fafafa;
+}
