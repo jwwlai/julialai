@@ -122,3 +122,10 @@ section div {
 	background-color: #1F5586;
 	color: #fafafa;
 }
+
+footer {
+	background-color:#3A3A3A;
+	color: #fafafa;
+	text-align: right;
+	padding: 50px 0px 50px 0px;
+}
