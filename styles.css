@@ -89,22 +89,45 @@ section div {
 	padding-bottom: 0px;
 }
 
-#projects div {
-	text-align: center;
+#work ul {
+	list-style-type:none;
+	padding: 0px;
+}
+
+#work ul li {
+	line-height: 25px;
+	padding: 10px 10px 10px 0px;
+	border-bottom: 1px solid black;
+}
+
+#projects .project-header {
 	background-color: #E9EAE5; /* 3A3A3A */
 	border-right: 5px solid #FAFAFA;
 	border-bottom: 3px solid #FAFAFA;
-	color: #000;
+	height: 400px;
 }
 
-#projects div:hover {
+#projects .project-header:hover {
 	background-color: #3A3A3A;
 	color: #fafafa;
 }
 
+.project-container {
+	background-color: #cccccc;
+	border-right: 5px solid #FAFAFA;
+	border-bottom: 3px solid #FAFAFA;
+	height: 400px;
+}
+
+#projects a {
+	text-align: center;
+	color: #000;
+}
+
 #projects ul li {
-	list-style: none;
-	background-color: #111;
+	padding: 10px 20px 10px 0px;
+	list-style-type: none;
+	border-bottom: 1px solid black;
 }
 
 #social div {
