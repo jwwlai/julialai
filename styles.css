@@ -152,3 +152,73 @@ footer {
 	text-align: right;
 	padding: 50px 0px 50px 0px;
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width : 380px) {
+	#top {
+			background: none;
+			height: 450px;
+	}	
+	#main {
+		padding: 10px;
+	}
+	
+	.logo { 
+		width: 100%;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 380px) and (max-width : 568px) {
+	#top {
+			background-size: 100%;
+			height: 350px;
+	}	
+	#main {
+		padding: 10px;
+	}
+	
+	.logo { display: none}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 568px) and (max-width : 768px) {
+	#top {
+			background-size: 100%;
+			height: 400px;
+	}	
+	#main {
+		padding: 10px;
+	}
+	
+	.logo { display: none}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	#top {
+			background-size: 100%;
+			height: 100%;
+	}	
+	#main {
+		padding: 10px;
+	}
+	
+	.logo { width: 200px;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	#top {
+			color: red;
+			background-size: 1024px;
+	}
+}
